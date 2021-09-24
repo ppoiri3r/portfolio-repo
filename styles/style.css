@@ -947,7 +947,7 @@ header .social-icons ul li .fa-linkedin-in {
     padding: 100px 0 125px;
   }
 }
-@media (max-width: 424px) {
+@media (max-width: 430px) {
   .work ul li div {
     display: -webkit-box;
     display: -ms-flexbox;
