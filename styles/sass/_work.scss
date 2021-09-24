@@ -1,0 +1,73 @@
+.work {
+  margin-bottom: 100px;
+  h3 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: black;
+    line-height: 1;
+    // text-shadow: -9px 5px 15px rgba(0,0,0,.19);
+    text-shadow: -9px 5px 9px yellow;
+    font-style: italic;
+    // margin-bottom: 30px;
+    transition: 0.3s;
+    span {
+      display: block;
+    }
+  }
+  ul {
+    li {
+      margin-top: 55px;
+      h5 {
+        font-size: 1.5rem;
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        color: rgba(0, 0, 0, 0.676);
+        transition: 0.5s;
+        line-height: 1.5;
+        position: relative;
+        transition: 0.3s;
+      }
+      p {
+        margin-bottom: 25px;
+        transition: 0.3s;
+      }
+      .spacestagram {
+        font-style: italic;
+      }
+      a, button {
+        margin-top: 15px;
+        padding: 7px 15px;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-family: 'Space Mono', monospace;
+        // font-weight: 600;
+        background: transparent;
+        transition: 0.3s;
+        &:hover, &:focus {
+          border: 1px solid black;
+          background: black;
+          color: white;
+        }
+      }
+      button {
+        padding: 11px 15px;
+        cursor: pointer;
+      }
+      // .popup-container {
+      //   width: 500px;
+      //   height: 500px;
+      //   border: 1px solid red;
+      //   display: none;
+      //   position: absolute;
+      //   // background: purple;
+      //   z-index: 20;
+      //   // position: fixed;
+      //   .autoplay {
+      //     display: flex;
+      //   }
+      // }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.about {
+  margin-bottom: 145px;
+  div {
+    display: flex;
+    margin-bottom: 50px;
+    h3 {
+      font-size: 3rem;
+      margin-right: 80px;
+      align-self: center;
+      transition: 0.3s;
+    }
+    div {
+      display: block;
+      margin: 0 auto;
+      align-self: center;
+      p {
+        display: inline;
+        transition: 0.3s;
+      }
+    }
+  }
+  ul {
+    div {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      width: 60%;
+      li {
+        font-size: 0.8rem;
+        transition: 0.5s;
+        font-style: italic;
+        &:hover, &:focus {
+          background-color: black;
+          color: white;
+          letter-spacing: 1px;
+          padding: 0px 0px 0px 15px;
+        }
+      }
+    }
+  }
+}

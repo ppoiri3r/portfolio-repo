@@ -1,0 +1,58 @@
+.contact {
+  margin-bottom: 75px;
+  h5 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 5px;
+    line-height: 1.35;
+    transition: 0.3s;
+  }
+  form {
+    fieldset {
+      display: flex;
+      flex-direction: column;
+      border: none;
+      padding: 0;
+      label {
+        padding: 15px 0 5px 0;
+        transition: 0.3s;
+      }
+      input[type=text], input[type=email], textarea {
+        background: transparent;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        color: black;
+        font-family:'Courier New', Courier, monospace;
+        &::placeholder {
+          transition: 0.3s;
+        }
+        &:focus {
+          outline: 1.5px solid black;
+        }
+      }
+      .submit-form {
+        background-color: black;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-family:'Courier New', Courier, monospace;
+        margin-top: 30px;
+        color: white;
+        cursor: pointer;
+        // transition: 0.5s;
+        transition: 0.3s;
+        &:hover, &:focus{
+          background-color: black;
+          border: 1.5px solid yellow;
+          color: mintcream;
+          // border: 2px solid black;
+          // letter-spacing: 6px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+header {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  .text-content {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+      font-size: 2.5rem;
+      transition: font-size 0.3s;
+    }
+    div {
+      display: flex;
+      p, span {
+        font-size: 1.5rem;
+        transition: font-size 0.3s;
+      }
+    }
+  }
+  .social-icons {
+    order: 1;
+    position: fixed;
+    left: 7.5%;
+    bottom: 158px;
+    &::after {
+      content: "";
+      position: absolute;
+      background-color: black;
+      width: 2px;
+      height: 128px;
+      bottom: -158px;
+      left: 21px;
+    }
+    ul {
+      li {
+        padding-top: 20px;
+        i {
+          border: 2px solid black;
+          border-radius: 50%;
+          padding: 10px;
+          transition: 0.3s;
+          background: black;
+          color: mintcream;
+          transition: 0.3s;
+          &:hover, &:focus {
+            // background: rgb(138, 136, 136);
+            background: transparent;
+            // color: white;
+            color: black;
+          }
+        }
+        .fa-linkedin-in {
+          padding: 11.5px;
+        }
+      }
+    }
+  }
+}
